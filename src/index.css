@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   display: grid;
   place-content: center;
 }
@@ -23,7 +28,7 @@ body {
   padding: 0;
   border: 1px solid hsl(0, 100%, 50%);
   margin: 50px;
-  animation: animateModal .5s;
+  animation: animateModal .9s;
 }
 
 span {
@@ -37,6 +42,7 @@ span {
   padding: 4px 14px;
   background-color: #5cb8c5;
   color: white;
+  font-size: 24px;
 }
 
 .body {
@@ -50,6 +56,7 @@ span {
   padding: 2px 16px;
   background-color: #5cb8c5;
   color: white;
+  font-size: 24px;
 }
 
 @keyframes animateModal {
@@ -58,7 +65,7 @@ span {
     opacity: 0;
   }
 
-  to{
+  to {
     bottom: 0;
     opacity: 1;
   }
