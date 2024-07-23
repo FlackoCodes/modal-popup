@@ -40,7 +40,9 @@ span {
 
 .body {
   padding: 2px 16px;
-  height: 150px;
+  display: grid;
+  padding-left: center;
+  margin: 50px 0;
 }
 
 .footer {
