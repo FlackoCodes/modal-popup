@@ -23,6 +23,7 @@ body {
   padding: 0;
   border: 1px solid hsl(0, 100%, 50%);
   margin: 50px;
+  animation: animateModal .5s;
 }
 
 span {
@@ -49,4 +50,16 @@ span {
   padding: 2px 16px;
   background-color: #5cb8c5;
   color: white;
+}
+
+@keyframes animateModal {
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+
+  to{
+    bottom: 0;
+    opacity: 1;
+  }
 }
